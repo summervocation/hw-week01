@@ -1,0 +1,87 @@
+.rect{
+    width:150px;
+    height:150px;
+    background:gold;
+    border-radius: 50%
+}
+
+.btn{
+    background: #2abcb7;
+    width: 150px;
+/*    height:50px;*/
+    text-align:center;
+    line-height: 50px;
+    border-radius: 10px;
+    font-size: 1.52em;
+    letter-spacing: 0.1em;
+    color: #fff;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.4)
+}
+
+
+.btn:active{
+    background:#81759d;
+    color: black
+}
+
+.btn:hover{
+   color: gray;
+    background: #a0c6d8;
+    box-shadow: .2px .2px 10px
+    rgba(0, 0,  0, 0.4)
+}
+
+
+.inner{
+   background: navy;
+}
+.box{
+  width:60px;
+  height:60px;
+    background: gold;
+    text-align: center;
+    font-weight: 
+    
+}
+.bg1{
+ background: orangered; 
+}
+.bg2{
+ background: limegreen; 
+}
+.bg3{
+ background: dodgerblue; 
+}
+.bg4{
+ background: gold; 
+}
+
+#rect{
+  width: 0px;
+  height: 0px;
+  background: lightblue;
+  border-right: 50px solid red;
+  border-top: 50px solid green;
+  border-left: 50px solid yellow;
+  border-bottom: 50px solid blue
+}
+
+#rect2{
+  width: 0px;
+  height: 0px;
+/*   background: lightblue;*/  
+  border-right: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 50px solid yellow;
+  border-bottom: 50px solid yellow
+}
+
+#rect3{
+  width: 0px;
+  height: 0px;
+  /* background: lightblue; */
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 100px solid blue
+}
+
